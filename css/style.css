@@ -1,0 +1,1469 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*index*/
+header {
+    max-width: 100%;
+    display: flex;
+    background-color: #101b53;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header li:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.descrizione img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 35%;
+}
+
+.testodescrizione {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.testodescrizione h1{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+      
+}
+
+.bordodescrizione {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+}
+
+.testodescrizione p {
+    width: 65%;
+    padding: 20px;
+    margin: auto;
+    font-size: 20px;
+}
+
+section.scelte {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.scelte2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+div.scelteblu {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blureverse {
+    flex-direction: row-reverse;
+}
+
+.tasti h2 a {
+    font-size: 30px;
+    color: #d7eaff;
+    text-decoration: none;
+    background-color: #5084bb;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.tasti2 h2 a {
+    font-size: 30px;
+    color: #5084bb;
+    text-decoration: none;
+    background-color: #d7eaff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h2 a:hover {
+    color: darkslateblue;
+
+}
+
+.imgblu img {
+    border-radius: 8px;
+    height: 300px;
+    object-fit: cover;
+    width: 450px;
+}
+
+footer {
+    background-color: #101b53;
+    color: #ffffff;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: row;
+    }
+
+    nav ul a {
+        font-size: 16px;
+    }
+
+    div.testodescrizione h1 {
+        font-size: 20px;
+    }
+
+    div.testodescrizione p {
+        font-size: 14px;
+    }
+
+    .imgblu img {
+        display: flex;
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .tasti h2 a {
+        font-size: 16px;
+    }
+
+    .tasti2 h2 a{
+        font-size: 16px;
+    }
+}
+
+/*parchi*/
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.titoloparchi {
+    background-color: #75a8cd;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.titoloparchi h1 {
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.scrittaparchi {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.scrittaparchi p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+div.bordoparchi {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section.scelteparchi {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.scelteparchi2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.sceltebluparchi, .scelteparchi2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.parchireverse {
+    flex-direction: row-reverse;
+}
+
+.tastiparchi h2 {
+    background-color: #5084bb;
+    padding: 10px;
+    color: #d7eaff;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+} 
+
+.tastiparchi h2 a{
+    color: #d7eaff;
+   text-decoration: none;
+}
+
+.tastiparchi h2 a:hover {
+    color: darkslateblue;
+}
+
+.tastiparchi2 h2 a{
+     color: #5084bb;
+    text-decoration: none;
+}
+
+
+.introduzioneparco p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.introduzioneparco h3 {
+    color: #5084bb;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+}
+
+.tastiparchi2 h2 a:hover {
+    color: darkslateblue;
+}
+
+.tastiparchi2 h2 {
+    background-color: #d7eaff;
+    padding: 10px;
+    color: #5084bb;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+} 
+
+.introduzioneparco2 h3 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzioneparco2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 20px;
+    margin: auto;
+}
+
+@media (max-width: 700px){
+    .titoloparchi h1 {
+        font-size: 30px;
+    }
+
+    .tastiparchi h2 {
+        font-size: 16px;
+    }
+
+    .tastiparchi2 h2 {
+        font-size: 16px;
+    }
+
+    .introduzioneparco2 h3, .introduzioneparco h3 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .introduzioneparco p, .introduzioneparco2 p {
+        font-size: 16px;
+    }
+
+    .scelteparchi, .scelteparchi2 {
+        padding: 5px;
+    }
+}
+
+/*Attività*/
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.titoloattività {
+    background-color: #75a8cd;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.titoloattività h1 {
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.scrittaattività {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.scrittaattività p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgblu img{
+    max-width: 500px;
+}
+
+div.bordoattività {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section.scelteattività {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.scelteattività2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.sceltebluattività, .scelteattività2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.attivitàreverse {
+    flex-direction: row-reverse;
+}
+
+.tastiattività h2 {
+    background-color: #5084bb;
+    padding: 10px;
+    color: #d7eaff;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+} 
+
+.tastiattività h2 a{
+    color: #d7eaff;
+   text-decoration: none;
+}
+
+.tastiattività h2 a:hover {
+    color: darkslateblue;
+}
+
+.tastiattività2 h2 a{
+     color: #5084bb;
+    text-decoration: none;
+}
+
+
+.introduzioneattività p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.introduzioneattività h3 {
+    color: #5084bb;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+}
+
+.tastiattività2 h2 a:hover {
+    color: darkslateblue;
+}
+
+.tastiattività2 h2 {
+    background-color: #d7eaff;
+    padding: 10px;
+    color: #5084bb;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+} 
+
+.introduzioneattività2 h3 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzioneattività2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 20px;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .titoloattività h1 {
+        font-size: 30px;
+    }
+
+    .scrittaattività p {
+        font-size: 18px;
+    }
+
+    .tastiattività h2, .tastiattività2 h2 {
+        font-size: 16px;
+    }
+
+    .introduzioneattività p, .introduzioneattività2 p{
+        font-size: 16px;
+    }
+
+    .introduzioneattività h3, .introduzioneattività2 h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .sceltebluattività, .scelteattività2 {
+        flex-direction: column;
+    }
+}
+
+/*Flora e fauna*/
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.titolofauna {
+    background-color: #75a8cd;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.titolofauna h1 {
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.scrittafauna {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+.scrittafauna p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgblu img{
+    max-width: 500px;
+}
+
+div.bordofauna {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section.sceltefauna {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.sceltefauna2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.scelteblufauna, .sceltefauna2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.faunareverse {
+    flex-direction: row-reverse;
+}
+
+.tastifauna h2 {
+    background-color: #5084bb;
+    padding: 10px;
+    color: #d7eaff;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+} 
+
+.tastifauna h2 a{
+    color: #d7eaff;
+   text-decoration: none;
+}
+
+.tastifauna h2 a:hover {
+    color: darkslateblue;
+}
+
+.tastifauna2 h2 a{
+     color: #5084bb;
+    text-decoration: none;
+}
+
+
+.introduzionefauna p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.introduzionefauna h3 {
+    color: #5084bb;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+}
+
+.tastifauna2 h2 a:hover {
+    color: darkslateblue;
+}
+
+.tastifauna2 h2 {
+    background-color: #d7eaff;
+    padding: 10px;
+    color: #5084bb;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+} 
+
+.introduzionefauna2 h3 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzionefauna2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 20px;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .titolofauna h1 {
+        font-size: 30px;
+    }
+
+    .scrittafauna p {
+        font-size: 18px;
+    }
+
+    .tastifauna h2, .tastifauna2 h2 {
+        font-size: 16px;
+    }
+
+    .introduzionefauna p, .introduzionefauna2 p{
+        font-size: 16px;
+    }
+
+    .introduzionefauna h3, .introduzionefauna2 h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .scelteblufauna, .sceltefauna2 {
+        flex-direction: column;
+    }
+}
+
+/*Paradiso*/
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.navigazioneparadiso{
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #d7eaff;
+    display: flex;
+   
+}
+
+.navigazioneparadiso a:hover {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+.navigazioneparadiso a {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #5084bb;
+     max-width: 100%;
+}
+
+.navigazioneparadiso a.paginacorrente {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+
+.titoloparadiso {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.titoloparadiso h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+}
+
+.imgblu img{
+    max-width: 500px;
+}
+
+div.bordoattività {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+section.scelteparadiso {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.scelteparadiso2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.sceltebluparadiso, .scelteparadiso2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.paradisoreverse {
+    flex-direction: row-reverse;
+}
+
+
+
+.introduzioneparadiso p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+
+.introduzioneparadiso h3 {
+    color: #5084bb;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    margin-bottom: 2.5rem;
+}
+
+
+.introduzioneparadiso2 h3 {
+    color: #ffffff;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzioneparadiso2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+    .titoloparadiso h1 {
+        font-size: 24px;
+    }
+
+    .introduzioneparadiso p  {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 85%;
+    }
+
+    .introduzioneparadiso2 p {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 95%;
+    }
+
+
+    .sceltebluparadiso{
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+
+    .introduzioneparadiso h3  {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 85%;
+        margin-top: 10px;
+    }
+
+    .introduzioneparadiso2 h3 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    
+}
+
+/*etna*/
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+div.bordoattività {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.navigazioneetna{
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #d7eaff;
+    display: flex;
+   
+}
+
+.navigazioneetna a:hover {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+.navigazioneetna a {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #5084bb;
+     max-width: 100%;
+}
+
+.navigazioneetna a.paginacorrente {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+
+.titoloetna {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+.titoloetna h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+}
+
+.imgblu img{
+    max-width: 500px;
+}
+
+
+section.scelteetna {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.scelteetna2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.sceltebluetna, .scelteetna2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.etnareverse {
+    flex-direction: row-reverse;
+}
+
+
+
+.introduzioneetna p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+
+.introduzioneetna h3 {
+    color: #5084bb;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    margin-bottom: 2.5rem;
+}
+
+
+.introduzioneetna2 h3 {
+    color: #ffffff;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzioneetna2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+    .titoloetna h1 {
+        font-size: 24px;
+    }
+
+    .introduzioneetna p  {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 85%;
+    }
+
+    .introduzioneetna2 p {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 95%;
+    }
+
+
+    .sceltebluetna{
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+
+    .introduzioneetna h3  {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 85%;
+        margin-top: 10px;
+    }
+
+    .introduzioneetna2 h3 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    
+}
+
+/*pollino*/
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.navigazionepollino{
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #d7eaff;
+    display: flex;
+   
+}
+
+.navigazionepollino a:hover {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+.navigazionepollino a {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #5084bb;
+     max-width: 100%;
+}
+
+.navigazionepollino a.paginacorrente {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+
+.titolopollino {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+.titolopollino h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+}
+
+.imgblu img{
+    max-width: 500px;
+}
+
+div.bordoattività {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section.sceltepollino {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.sceltepollino2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.scelteblupollino, .sceltepollino2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.pollinoreverse {
+    flex-direction: row-reverse;
+}
+
+
+
+.introduzionepollino p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+
+.introduzionepollino h3 {
+    color: #5084bb;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    margin-bottom: 2.5rem;
+}
+
+
+.introduzionepollino2 h3 {
+    color: #ffffff;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzionepollino2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+    .titolopollino h1 {
+        font-size: 24px;
+    }
+
+    .introduzionepollino p  {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 85%;
+    }
+
+    .introduzionepollino2 p {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 95%;
+    }
+
+
+    .scelteblupollino{
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+
+    .introduzionepollino h3  {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 85%;
+        margin-top: 10px;
+    }
+
+    .introduzionepollino2 h3 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    
+}
+
+/*dolomiti*/
+
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+div.bordoattività {
+    border-bottom: 3px solid #101b53;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+.navigazionedolomiti{
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #d7eaff;
+    display: flex;
+   
+}
+
+.navigazionedolomiti a:hover {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+.navigazionedolomiti a {
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #5084bb;
+     max-width: 100%;
+}
+
+.navigazionedolomiti a.paginacorrente {
+    background-color: #5084bb;
+    color: #d7eaff;
+}
+
+.titolodolomiti {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+.titolodolomiti h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+}
+
+.imgblu img{
+    max-width: 500px;
+}
+
+
+section.sceltedolomiti {
+    max-width: 100%;
+    margin: auto;
+    background-color: #d7eaff;
+}
+
+section.sceltedolomiti2 {
+    max-width: 100%;
+    margin: auto;
+    background-color: #5084bb;
+}
+
+.sceltebludolomiti, .sceltedolomiti2 {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.dolomitireverse {
+    flex-direction: row-reverse;
+}
+
+
+
+.introduzionedolomiti p {
+    color: #5084bb;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+
+.introduzionedolomiti h3 {
+    color: #5084bb;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    margin-bottom: 2.5rem;
+}
+
+
+.introduzionedolomiti2 h3 {
+    color: #ffffff;
+    font-size: 26px;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 71%;
+    
+}
+
+.introduzionedolomiti2 p {
+    color: #ffffff;
+    width: 71%;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+    .titolodolomiti h1 {
+        font-size: 24px;
+    }
+
+    .introduzionedolomiti p  {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 85%;
+    }
+
+    .introduzionedolomiti2 p {
+        font-size: 12px;
+        padding: 5px;
+        margin-bottom: 0.5rem;
+        width: 95%;
+    }
+
+
+    .sceltebludolomiti{
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+
+    .introduzionedolomiti h3  {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 85%;
+        margin-top: 10px;
+    }
+
+    .introduzionedolomiti2 h3 {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    
+}
